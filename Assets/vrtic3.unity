@@ -252,6 +252,8 @@ MonoBehaviour:
   row: 0
   col: 0
   manager: {fileID: 0}
+  primaryButtonReader: {fileID: 0}
+  triggerButtonReader: {fileID: 0}
 --- !u!65 &421334953
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -724,6 +726,8 @@ MonoBehaviour:
   row: 0
   col: 2
   manager: {fileID: 2048623983}
+  primaryButtonReader: {fileID: 0}
+  triggerButtonReader: {fileID: 0}
 --- !u!114 &802073496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1013,6 +1017,8 @@ MonoBehaviour:
   row: 0
   col: 0
   manager: {fileID: 2048623983}
+  primaryButtonReader: {fileID: 0}
+  triggerButtonReader: {fileID: 0}
 --- !u!114 &880095874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1049,13 +1055,13 @@ MonoBehaviour:
   m_HoverEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 76ba999c46f35424c9bd25e05577108f, type: 3}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 186490662}
+        m_TargetAssemblyTypeName: Square, Assembly-CSharp
+        m_MethodName: OnHoverEntered
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1063,7 +1069,19 @@ MonoBehaviour:
         m_CallState: 2
   m_HoverExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 186490662}
+        m_TargetAssemblyTypeName: Square, Assembly-CSharp
+        m_MethodName: OnHoverExited
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_FirstSelectEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -1179,6 +1197,8 @@ MonoBehaviour:
   row: 2
   col: 0
   manager: {fileID: 2048623983}
+  primaryButtonReader: {fileID: 0}
+  triggerButtonReader: {fileID: 0}
 --- !u!114 &957295150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1333,6 +1353,8 @@ MonoBehaviour:
   row: 2
   col: 2
   manager: {fileID: 2048623983}
+  primaryButtonReader: {fileID: 0}
+  triggerButtonReader: {fileID: 0}
 --- !u!114 &991887588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1487,6 +1509,8 @@ MonoBehaviour:
   row: 1
   col: 2
   manager: {fileID: 2048623983}
+  primaryButtonReader: {fileID: 0}
+  triggerButtonReader: {fileID: 0}
 --- !u!114 &1017754559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1774,6 +1798,8 @@ MonoBehaviour:
   row: 2
   col: 1
   manager: {fileID: 2048623983}
+  primaryButtonReader: {fileID: 0}
+  triggerButtonReader: {fileID: 0}
 --- !u!114 &1131047697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1982,6 +2008,8 @@ MonoBehaviour:
   row: 0
   col: 1
   manager: {fileID: 2048623983}
+  primaryButtonReader: {fileID: 0}
+  triggerButtonReader: {fileID: 0}
 --- !u!114 &1577836993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2466,6 +2494,8 @@ MonoBehaviour:
   row: 1
   col: 0
   manager: {fileID: 2048623983}
+  primaryButtonReader: {fileID: 0}
+  triggerButtonReader: {fileID: 0}
 --- !u!114 &1875939906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2806,6 +2836,8 @@ MonoBehaviour:
   row: 1
   col: 1
   manager: {fileID: 2048623983}
+  primaryButtonReader: {fileID: 0}
+  triggerButtonReader: {fileID: 0}
 --- !u!114 &2146614482
 MonoBehaviour:
   m_ObjectHideFlags: 0
